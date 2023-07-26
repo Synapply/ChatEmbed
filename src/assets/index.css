@@ -8,7 +8,7 @@
     --chatbot-container-bg-color: transparent;
     --chatbot-container-font-family: 'Open Sans';
   
-    --chatbot-button-bg-color: #0042da;
+    --chatbot-button-bg-color: #c100dac7;
     --chatbot-button-color: #ffffff;
   
     --chatbot-host-bubble-bg-color: #f7f8ff;
@@ -159,15 +159,15 @@
   
   .chatbot-button {
     color: var(--chatbot-button-color);
-    background-color: #0042da;
-    border: 1px solid #0042da;
+    background-color: #c100dac7;
+    border: 1px solid #c100dac7;
     border-radius: var(--chatbot-border-radius);
   }
   
   .chatbot-button.selectable {
     color: var(--chatbot-host-bubble-color);
     background-color: #f7f8ff;
-    border: 1px solid #0042da;
+    border: 1px solid #c100dac7;
   }
   
   .chatbot-host-bubble {
@@ -189,7 +189,7 @@
   
   .chatbot-guest-bubble {
     color: var(--chatbot-guest-bubble-color);
-    background-color: #3B81F6;
+    background-color: #a600ffa6;
     border-radius: 6px;
   }
   
@@ -213,19 +213,19 @@
   }
   
   .ping span {
-    background-color: #0042da;
+    background-color: #c100dac7;
   }
   
   .rating-icon-container svg {
     width: 42px;
     height: 42px;
-    stroke: #0042da;
+    stroke: #c100dac7;
     fill: #f7f8ff;
     transition: fill 100ms ease-out;
   }
   
   .rating-icon-container.selected svg {
-    fill: #0042da;
+    fill: #c100dac7;
   }
   
   .rating-icon-container:hover svg {
@@ -237,12 +237,12 @@
   }
   
   .upload-progress-bar {
-    background-color: #0042da;
+    background-color: #c100dac7;
     border-radius: var(--chatbot-border-radius);
   }
   
   .total-files-indicator {
-    background-color: #0042da;
+    background-color: #c100dac7;
     color: var(--chatbot-button-color);
     font-size: 10px;
   }
@@ -252,7 +252,7 @@
   }
   
   .chatbot-upload-input.dragging-over {
-    border-color: #0042da;
+    border-color: #c100dac7;
   }
   
   .secondary-button {
